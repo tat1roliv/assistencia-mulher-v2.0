@@ -1,0 +1,22 @@
+{
+  "name": "assistencia-mulher",
+  "version": "1.0.0",
+  "description": "Assistência a mulher, onde elas podem saber se são abusadas e como agir nessa situação",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server/bin/www.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Neovander Gabriel Inacio Garcia, Rafael Arduini Cavalcanti, Rodrigo da Matta Soares, Rafael da Matta Soares, Renata Machado e Tatiana Ribeiro de Oliveira",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "config": "^3.3.7",
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.16",
+    "sequelize": "^6.19.0",
+    "sequelize-cli": "^6.4.1"
+  }
+}
