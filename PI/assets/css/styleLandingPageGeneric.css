@@ -2,7 +2,7 @@
 @import url("https://use.fontawesome.com/releases/v5.13.0/css/all.css");
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;600;700&display=swap");
+
 
 :root {
 	--color1: #c3dcef;
@@ -14,11 +14,11 @@
 /*--------------------------------------- LP && TYP*/
 
 * {
-    font-family: "Barlow", sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 
 .ic-text-muted{
-color: #D2D3DC !important;
+color: #353535 !important;
 }
 
 .ic-text-pink{
@@ -30,7 +30,7 @@ color: #D2D3DC !important;
 }
 
 .ic-text-gray{
-    color: #707070; /*#F8F8F8;   */
+    color: #353535; /*#F8F8F8;   */
 }
 
 .bg-pink{
@@ -121,12 +121,12 @@ p.lead {
 
 p.lead span{
     z-index: 2;
-    font-family: "Work Sans", sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: 600;
-    font-size: 18px;
-    line-height: 21px;
+    font-size: 16px;
+    line-height: 20px;
     text-transform: capitalize;
-    color: #fff;
+    color: #1d7ade;
 }
 
 p.lead:before{
@@ -134,16 +134,18 @@ p.lead:before{
     position: absolute;
     z-index: 1;
     left: 0px;
-    top: calc(50% - 1px);
+    top: calc(50% - 10px);
     width: 100%;
-    background-color: #1d7ade;
-    height: 8px;
+    border: 1px solid #1d7ade;
+    height: 100%;
+    border-radius:8px;
 }
 
 .boxed-content{
     border: 2px solid #CD2469;
     padding:50px;
     margin-bottom: 100px;
+    border-radius: 8px;
 }
 
 p.return-data {
@@ -151,6 +153,7 @@ p.return-data {
     font-weight: 800;
     font-size: 24px;
     line-height: 36px;
+    color:#CD2469;
 }
 
 footer p{
@@ -255,6 +258,7 @@ h3.ic-form-title{
     padding: 20px;
     margin: 0px;
     background-color: #1D2351;
+    border-radius: 8px 8px 0 0;
 }
 
 
@@ -529,6 +533,7 @@ h3.ic-form-title{
 
 .ic-class-form-row.col-12.mt-4{
     margin-top: 20px !important;
+    border-radius: 8px !important;
 }
 
 .ic-class-form-label {
@@ -575,7 +580,7 @@ h3.ic-form-title{
     font-size: 14px;
     font-weight: 400;
     line-height: 16px;
-    color: #1d7ade;
+    color: #595959;
     margin: 0px;
 }
 
